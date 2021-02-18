@@ -9,7 +9,7 @@ body {
     height: 70vh;
     flex-direction: column;
     
-    background-color: #079992;
+    background-color: #575fcf;
 }
 
 .header {
@@ -37,6 +37,11 @@ body {
     margin-right: 5px;
 }
 
+.locate-button {
+    text-decoration: none;
+    color: white;
+}
+
 .jumbotron .jumbotron-title {
     /* border: 1px solid white; */
     display: flex;
@@ -62,3 +67,209 @@ body {
     background-color: black;
     border: 3px solid black;
 }
+
+.photo {
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.photo #photo-image {
+    width: 110px;
+    height: 110px;
+    margin-top: -50px;
+    
+    border: 3px solid white;
+    border-radius: 100%;
+
+    transition: 500ms;    
+}
+
+.photo #photo-image:hover {
+    border: 3px solid black;
+}
+
+.photo .photo-title #photo-name {
+    border: 2px solid black;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+.photo .photo-title #photo-line {
+    background-color: black;
+    border: 2px solid black;
+
+    width: 550px;
+}
+
+.about-me {
+    border: 3px solid black;
+    border-radius: 10px;
+
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.about-me-content {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.about-me .about-me-content .about-me-bio {
+    /* border: 1px solid black; */
+    text-align: left;
+    flex: 4;
+}
+
+.about-me .about-me-content .about-me-edu {
+    /* border: 1px solid black; */
+    text-align: left;
+    margin-right: 15px;
+
+    background-color: #575fcf;
+    color: white;
+
+    border-radius: 10px;
+    flex: 2;
+}
+
+.skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
+    background-color:#575fcf;
+    color: white;
+
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.skills #skills-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills .skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills .skills-container .skills-content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.skills .skills-container .skills-content .skills-content-1 {
+    flex: 1;
+}
+
+.skills .skills-container .skills-content .skills-content-2 {
+    flex: 1;
+}
+
+.skills .skills-container .skills-content .skills-content-1 .skills-items-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outline-bar {
+    width: 100%;
+    height: 20px;
+
+    border: 3px solid white;
+    background: #54a0ff;
+}
+
+#inline-bar-1 {
+    width: 75%;
+    height: 20px;
+
+    background: #575fcf;
+}
+
+#inline-bar-2 {
+    width: 85%;
+    height: 20px;
+
+    background: #575fcf;
+}
+
+#inline-bar-3 {
+    width: 80%;
+    height: 20px;
+
+    background: #575fcf;
+}
+
+#inline-bar-4 {
+    width: 90%;
+    height: 20px;
+
+    background: #575fcf;
+}
+
+
+.experience {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.experience .experience-content {
+    display: flex;
+    justify-content: center;
+}
+
+.experience .experience-content .experience-content-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    
+    width: 700px;
+    height: 700px;
+
+    margin-top: 20px;
+}
+
+.experience .experience-content .experience-content-menu .experience-items {
+    width: 200px;
+    height: 200px;
+
+    background-color: #575fcf;
+    border: 3px solid white;
+    border-radius: 10px;
+
+    color: white;
+}
+
+.experience-details {
+    justify-items: center;
+    align-self: flex-end;
+}
+
+.contact {
+    background-color: #575fcf;
+    border: 3px solid white;
+    border-radius: 10px;
+
+    margin-top: 50px;
+
+    color: white;
+}
+
+.contact .contact-title {
+    text-align: center;
+}
+
+.contact .contact-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
